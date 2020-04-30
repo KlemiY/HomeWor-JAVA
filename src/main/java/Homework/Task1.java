@@ -15,9 +15,8 @@ import java.util.Scanner; // Импорт сканнера для ввода д�
 public class Task1 {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); // Создаю объект класса сканер +-.
-        String name = scanner.nextLine(); // Считываю строку.
-        System.out.println("Hello, please insert your numbers." ); // Вывожу строку.
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Hello, please insert 3 digits: " );
         int numberOne = scanner.nextInt();
         int numberTwo = scanner.nextInt();
         int numberThree = scanner.nextInt();
