@@ -9,7 +9,7 @@ System.out.println, System.out.print можно использовать тол�
 public class Task2 {
     public static void main(String[] args) {
 
-        String n = "Oleg";
+        String n = "Marina<3";
 
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 10; j++) {
