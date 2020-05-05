@@ -1,25 +1,21 @@
-package Homework;
+package Homework_lesson1;
 
 /* Мое имя - Oleg.
 Вывести на экран свое имя 5 строк по 10 раз (через пробел).
 System.out.println, System.out.print можно использовать только по одному разу
-для этого нужно воспользоваться циклом while
+для этого нужно воспользоваться циклом for.
 */
 
-public class Task3 {
+public class Task2 {
     public static void main(String[] args) {
 
-        String n = "Oleg";
+        String n = "Marina<3";
 
-        int i = 0;
-        while (i < 5) {
-            System.out.println();
-            i++;
-            int j = 0;
-            while (j < 10) {
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 10; j++) {
                 System.out.print(n + " ");
-                j++;
             }
+            System.out.println();
         }
     }
 }
