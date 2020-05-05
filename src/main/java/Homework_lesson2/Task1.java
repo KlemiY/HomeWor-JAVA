@@ -47,7 +47,7 @@ public class Task1 {
 
     public void setName(String name) {
         name = name.trim();
-        for (; ; ) {  //Костыль (просто реши посмотреть, сработает или нет).
+        for ( ; ; ) {  //Костыль (просто решил посмотреть, сработает или нет).
             if (name.length() == 0) {
                 System.out.println("Invalid name, you can't use only spaces in your name!");
                 this.name = "Undefined";
