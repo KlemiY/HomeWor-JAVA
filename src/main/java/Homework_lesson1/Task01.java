@@ -12,7 +12,7 @@ package Homework_lesson1;
 
 import java.util.Scanner; // Импорт сканнера для ввода данных.
 
-public class Task1 {
+public class Task01 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -20,7 +20,7 @@ public class Task1 {
         int numberOne = scanner.nextInt();
         int numberTwo = scanner.nextInt();
         int numberThree = scanner.nextInt();
-        System.out.println(Task1.min(numberOne, numberTwo, numberThree));
+        System.out.println(Task01.min(numberOne, numberTwo, numberThree));
     }
 
     // Перебор при помощи if для поиска min числа.
