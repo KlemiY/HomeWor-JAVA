@@ -1,6 +1,6 @@
 ## Homework_lesson2 (Lesson2)
 #### Task1
-* Status - finished  (not reviewed).
+* Status - finished  (reviewed).
 * Date: 05.05.2020 (16:06).
 
 ## Homework_lesson1 (Lesson1)
